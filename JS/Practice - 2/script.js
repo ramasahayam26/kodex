@@ -417,4 +417,21 @@ printIndexArray([10, 50, 21, 8541, 0])
 
 // 39. Write a function that returns the middle element of an array.
 
+function getMiddleElement(arr){
+    let middleIndex = Math.floor(arr.length / 2);
+    return arr[middleIndex];
+}
+
+console.log(getMiddleElement([10, 20, 30, 40, 50]));
+
+
+
 // 40. Write a function that removes 1 element from the middle of an array using splice.
+
+function removeMiddleElement(arr){
+    let middleIndex = Math.floor(arr.length / 2);
+    arr.splice(middleIndex, 1);
+    return arr;
+}
+
+console.log(removeMiddleElement([10, 20, 30, 40, 50]));
