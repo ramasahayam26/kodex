@@ -1,5 +1,3 @@
-// My code
-
 var keys = document.querySelectorAll(".key");
 
 keys.forEach(key => {
