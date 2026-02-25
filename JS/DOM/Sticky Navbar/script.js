@@ -12,3 +12,4 @@ navbar.addEventListener("wheel", function (dets){
     }
 })
 
+
